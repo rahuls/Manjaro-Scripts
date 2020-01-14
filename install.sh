@@ -1,8 +1,6 @@
 essentials="\
     yay \
     google-chrome \
-    redshift \
-    plasma5-applets-redshift-control \
     code \
     latte-dock \
     telegram-desktop \
