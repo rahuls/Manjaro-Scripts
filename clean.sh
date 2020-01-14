@@ -4,12 +4,12 @@ sudo paccache -ruk0
 
 #remove all the package from the cache, including those that are installed:
 sleep 1
-sudo pacman -Scc
+sudo pacman -Scc --noconfirm
 
 #Remove unused packages
 sleep 1
-sudo pacman -Rsn $(pacman -Qdtq)
-
+sudo pacman -Rsn $(pacman -Qdtq) --noconfirm
+ 
 #Remove cache of home directory
 sleep 1
 rm -rf ~/.cache/*
