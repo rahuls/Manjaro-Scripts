@@ -1,9 +1,11 @@
+#This script installs essential packages
 essentials="\
     yay \
     google-chrome \
     code \
     latte-dock \
     telegram-desktop \
+    transmission-qt \
     "
 #script
 
